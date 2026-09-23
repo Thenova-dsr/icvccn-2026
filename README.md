@@ -1,4 +1,4 @@
-# ICVCCN 2026 — Conference Website
+# ICVCCNA 2027 — Conference Website
 
 Static website (HTML / CSS / JS, no build step) for the **International Conference on VLSI,
 Communication, Computer Networks and Artificial Intelligence**, organised by the Department of ECE,
@@ -130,6 +130,23 @@ The real fix is bigger source files: get originals about **2400px wide** from th
 them in under the same filenames. Large originals usually need no sharpening at all.
 
 Always re-process from `assets/originals/`, never from `assets/` - repeated passes compound JPEG loss.
+
+## Source of truth
+
+All content comes from **`amc_newdoc.docx`** (the second, revised document). Nothing is invented.
+Where the document is silent, the page says "To be announced" rather than guessing:
+
+- Registration fees and registration portal
+- Conference e-mail and phone number
+- The CMT submission portal link
+
+The earlier draft (`AMCEC_College Details-Draft.docx`) is superseded. Differences applied:
+acronym ICVCCN to ICVCCNA; real dates (conference 18-19 March 2027); Honorary Chair and
+Publication Chair roles added; Convenor changed to Dr G. Senbagavalli; the three CSE
+co-convenors removed; advisory committee 10 to 12; technical 13 to 14; organising 8 to 14;
+INNOTRONICS replaced by TECHTANTRA.
+
+Track headings are the document's own ("Track 1" ... "Track 4") - no invented titles.
 
 ## Notes
 
