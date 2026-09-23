@@ -1,0 +1,7 @@
+# Internal college source document — not for public hosting
+*.docx
+
+# Untouched source images kept locally for re-processing
+assets/originals/
+
+.DS_Store
