@@ -358,3 +358,7 @@ td.nm{font-weight:600;color:var(--navy);white-space:nowrap}
 .speaker .sr{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.9px;
   color:var(--orange-dark);margin:0 0 6px}
 .speaker .so{font-size:14.5px;color:var(--ink-soft);margin:0}
+
+/* Portrait poster inside a .split — keep it from towering over the text column */
+.split img.poster{max-height:580px;width:auto;max-width:100%;margin:0 auto;display:block}
+@media(max-width:980px){.split img.poster{max-height:520px}}
