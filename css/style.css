@@ -56,7 +56,7 @@ p{margin:0 0 1.1em}
 /* ---------- Masthead ---------- */
 .masthead{background:var(--white);border-bottom:1px solid var(--line)}
 .masthead .wrap{display:flex;align-items:center;justify-content:space-between;gap:22px;padding-top:14px;padding-bottom:14px}
-.brand-logo img{height:106px;width:auto;object-fit:contain}
+.brand-logo img{height:133px;width:auto;object-fit:contain}
 .brand-title{text-align:center;flex:1 1 320px;min-width:0}
 .brand-title .acr{font-family:var(--head);font-size:clamp(26px,4.4vw,42px);color:var(--navy);letter-spacing:1.5px;line-height:1;margin:0}
 .brand-title .acr span{color:var(--orange)}
@@ -312,7 +312,7 @@ td.nm{font-weight:600;color:var(--navy);white-space:nowrap}
   .footer .cols{grid-template-columns:1fr}
   .sec{padding:46px 0}
   .countdown .cd-box{min-width:63px}
-  .brand-logo img{height:74px}
+  .brand-logo img{height:100px}
 }
 @media print{.nav,.topbar,#toTop,.hero{display:none}}
 
